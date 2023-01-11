@@ -12,6 +12,8 @@ border: black;
 }
 
 img{
+    border: 3px;
+    border-color: blue;
 
 }
 
