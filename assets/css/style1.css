@@ -5,12 +5,33 @@ body{
     color: rgb(82, 82, 82);
 }
 
-li{
-    
+a:link{
+    color: rgb(93, 206, 255);
+    text-decoration: none;
+}
+a:visited{
+    color: rgb(0, 138, 163);
+    text-decoration: none;
+}
+a:hover{
+    color: rgb(82, 82, 82);
+    text-decoration: none;
+}
+a:active{
+    color: rgb(47, 47, 47);
+    text-decoration: none;
+}
+
+li{  
     color: rgb(22, 22, 22);
 }
 
-
+ul#menu li{
+    display: inline;
+    margin-right: 20px;
+    
+    
+}
 
 h1{
     background-color: rgb(226, 226, 226);
@@ -19,29 +40,42 @@ h1{
     color:rgb(22, 22, 22);
 }
 
-#alhaalla{
+.alhaalla{
     background-color:rgb(43, 43, 43);
-    color: rgb(255, 255, 255);
+
+    color: rgb(103, 103, 103);
     
 }
 
-h3, #alhaalla{
+h3, .alhaalla{
     color: rgb(255, 255, 255);
 }
 
-p, #alhaalla{
+p, .alhaalla{
     color: rgb(103, 103, 103);
 }
 
-a:link{
-    color: rgb(93, 206, 255);
+div{
+    column-count: 3;
 }
-a:visited{
-    color: rgb(0, 138, 163);
+
+a.ala:link{
+    color: rgb(103, 103, 103);
+    text-decoration: none;
 }
-a:hover{
-    color: rgb(82, 82, 82);
+a.ala:visited{
+    color: rgb(155, 155, 155);
+    text-decoration: none;
 }
-a:active{
+a.ala:hover{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+a.ala:active{
     color: rgb(47, 47, 47);
+    text-decoration: none;
 }
+
+
+
+
