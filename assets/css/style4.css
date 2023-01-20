@@ -49,7 +49,7 @@ section{
 sidebar {
     display: flex;
     flex-direction: column;
-    background-color: aqua;
+    background-color: rgb(255, 255, 255);
     min-width: 200px;
 }
 
